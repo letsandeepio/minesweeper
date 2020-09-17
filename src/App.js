@@ -12,11 +12,11 @@ function App() {
         <a
           href="https://github.com/letsandeepio/"
           target="_blank"
-          class="nes-badge is-icon"
+          className="nes-badge is-icon"
           rel="noopener noreferrer"
         >
-          <span class="is-dark">by</span>
-          <span class="is-warning">Sandeep</span>
+          <span className="is-dark">by</span>
+          <span className="is-warning">Sandeep</span>
         </a>
       </div>
 
