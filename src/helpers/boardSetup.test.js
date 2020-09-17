@@ -1,7 +1,7 @@
 import { boardSetup } from './boardSetup';
 import { initialState } from '../context/reducer';
 
-describe('boardSetip', () => {
+describe('boardSetup', () => {
   it('it returns an object', () => {
     const outputState = boardSetup(initialState);
     expect(typeof outputState).toEqual('object');
