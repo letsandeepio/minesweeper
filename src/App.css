@@ -5,3 +5,8 @@
   margin: 50px auto;
   user-select: none;
 }
+
+.App__title {
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -7,7 +7,19 @@ import Header from './components/Header';
 function App() {
   return (
     <div className="App">
-      <h1>Minesweeper</h1>
+      <div className="App__title">
+        <h1>Minesweeper</h1>
+        <a
+          href="https://github.com/letsandeepio/"
+          target="_blank"
+          class="nes-badge is-icon"
+          rel="noopener noreferrer"
+        >
+          <span class="is-dark">by</span>
+          <span class="is-warning">Sandeep</span>
+        </a>
+      </div>
+
       <Header />
       <GameBoard />
       <GameBanner />
